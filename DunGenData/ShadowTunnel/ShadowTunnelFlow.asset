@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e228b45736a8cf4ea000616e628a4dd, type: 3}
+  m_Name: ShadowTunnelFlow
+  m_EditorClassIdentifier: 
+  globalPropGroupID_obsolete: 
+  globalPropRanges_obsolete: []
+  Length:
+    Min: 30
+    Max: 32
+  BranchMode: 0
+  BranchCount:
+    Min: 1
+    Max: 5
+  GlobalProps: []
+  KeyManager: {fileID: 0}
+  DoorwayConnectionChance: 0
+  RestrictConnectionToSameSection: 0
+  TileInjectionRules:
+  - TileSet: {fileID: 11400000, guid: 59d6768aa3fac934494a5bc1d04c9761, type: 2}
+    NormalizedPathDepth:
+      Min: 0.1
+      Max: 0.2
+    NormalizedBranchDepth:
+      Min: 0
+      Max: 1
+    CanAppearOnMainPath: 1
+    CanAppearOnBranchPath: 0
+    IsRequired: 1
+  - TileSet: {fileID: 11400000, guid: 59d6768aa3fac934494a5bc1d04c9761, type: 2}
+    NormalizedPathDepth:
+      Min: 0.3
+      Max: 0.4
+    NormalizedBranchDepth:
+      Min: 0
+      Max: 1
+    CanAppearOnMainPath: 1
+    CanAppearOnBranchPath: 0
+    IsRequired: 1
+  Nodes:
+  - Graph: {fileID: 11400000}
+    TileSets:
+    - {fileID: 11400000, guid: 58086b72e49e53a429369bda7c372f99, type: 2}
+    NodeType: 1
+    Position: 0
+    Label: Start
+    Keys: []
+    Locks: []
+    LockPlacement: 0
+  - Graph: {fileID: 11400000}
+    TileSets:
+    - {fileID: 11400000, guid: 02b4f8254dd31b14a97470081b8fc886, type: 2}
+    NodeType: 2
+    Position: 1
+    Label: Goal
+    Keys: []
+    Locks: []
+    LockPlacement: 0
+  Lines:
+  - Graph: {fileID: 11400000}
+    DungeonArchetypes:
+    - {fileID: 11400000, guid: 58df711815413484583b6fd3c232c1d3, type: 2}
+    Position: 0
+    Length: 0.471473
+    Keys: []
+    Locks: []
+  - Graph: {fileID: 11400000}
+    DungeonArchetypes:
+    - {fileID: 11400000, guid: 0c98df1837a286643a686b4715df46f3, type: 2}
+    Position: 0.471473
+    Length: 0.528527
+    Keys: []
+    Locks: []
+  currentFileVersion: 1

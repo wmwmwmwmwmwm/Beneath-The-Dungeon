@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &2459973540563071874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 135900568207222192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f07d921db9f484b44860aab9f2dcae91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PrefabAsset: {fileID: 135900568207222192}
+  PrefabID: cc9b1688-43e3-4d3c-836e-1f912bd35025
+  InstanceID: 
+--- !u!1001 &3083200119588909076
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -5129709598079426707, guid: 60513edd9be0e394cb43ec88b241e3c2,
+        type: 3}
+      propertyPath: ID
+      value: losttempleentrance
+      objectReference: {fileID: 0}
+    - target: {fileID: -3890813670691187462, guid: 60513edd9be0e394cb43ec88b241e3c2,
+        type: 3}
+      propertyPath: DestinationDungeon
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c4bf3a449944e04789d4b0f634bb370,
+        type: 2}
+    - target: {fileID: 193998628123829660, guid: 60513edd9be0e394cb43ec88b241e3c2,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 193998628123829660, guid: 60513edd9be0e394cb43ec88b241e3c2,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.06652174
+      objectReference: {fileID: 0}
+    - target: {fileID: 193998628123829660, guid: 60513edd9be0e394cb43ec88b241e3c2,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.08130435
+      objectReference: {fileID: 0}
+    - target: {fileID: 961235885297984596, guid: 60513edd9be0e394cb43ec88b241e3c2,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.38364774
+      objectReference: {fileID: 0}
+    - target: {fileID: 961235885297984596, guid: 60513edd9be0e394cb43ec88b241e3c2,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.79055
+      objectReference: {fileID: 0}
+    - target: {fileID: 961235885297984596, guid: 60513edd9be0e394cb43ec88b241e3c2,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3110697566506456484, guid: 60513edd9be0e394cb43ec88b241e3c2,
+        type: 3}
+      propertyPath: m_Name
+      value: Dungeon Entrance Shadow Tunnel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4102951843081849764, guid: 60513edd9be0e394cb43ec88b241e3c2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4339516585981430636, guid: 60513edd9be0e394cb43ec88b241e3c2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4339516585981430636, guid: 60513edd9be0e394cb43ec88b241e3c2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -14
+      objectReference: {fileID: 0}
+    - target: {fileID: 4339516585981430636, guid: 60513edd9be0e394cb43ec88b241e3c2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4339516585981430636, guid: 60513edd9be0e394cb43ec88b241e3c2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4339516585981430636, guid: 60513edd9be0e394cb43ec88b241e3c2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4339516585981430636, guid: 60513edd9be0e394cb43ec88b241e3c2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4339516585981430636, guid: 60513edd9be0e394cb43ec88b241e3c2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4339516585981430636, guid: 60513edd9be0e394cb43ec88b241e3c2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4339516585981430636, guid: 60513edd9be0e394cb43ec88b241e3c2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4339516585981430636, guid: 60513edd9be0e394cb43ec88b241e3c2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4339516585981430636, guid: 60513edd9be0e394cb43ec88b241e3c2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5393313649866044536, guid: 60513edd9be0e394cb43ec88b241e3c2,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.467
+      objectReference: {fileID: 0}
+    - target: {fileID: 5393313649866044536, guid: 60513edd9be0e394cb43ec88b241e3c2,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.23258433
+      objectReference: {fileID: 0}
+    - target: {fileID: 5393313649866044536, guid: 60513edd9be0e394cb43ec88b241e3c2,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.29118824
+      objectReference: {fileID: 0}
+    - target: {fileID: 8288065973473245006, guid: 60513edd9be0e394cb43ec88b241e3c2,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.234
+      objectReference: {fileID: 0}
+    - target: {fileID: 8288065973473245006, guid: 60513edd9be0e394cb43ec88b241e3c2,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.07157647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8288065973473245006, guid: 60513edd9be0e394cb43ec88b241e3c2,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.075247034
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60513edd9be0e394cb43ec88b241e3c2, type: 3}
+--- !u!1 &135900568207222192 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3110697566506456484, guid: 60513edd9be0e394cb43ec88b241e3c2,
+    type: 3}
+  m_PrefabInstance: {fileID: 3083200119588909076}
+  m_PrefabAsset: {fileID: 0}

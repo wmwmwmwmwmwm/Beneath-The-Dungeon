@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4730340129095358572
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4730340129095358573}
+  - component: {fileID: 8866373084118022301}
+  m_Layer: 0
+  m_Name: ColorPalette
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730340129095358573
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4730340129095358572}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8866373084118022301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4730340129095358572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84bcc19d85228c74b9412b0d68dddd4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  CommonIconBoundary: {r: 1, g: 1, b: 1, a: 1}
+  UncommonIconBoundary: {r: 0.2627451, g: 0.7607843, b: 1, a: 1}
+  RareIconBoundary: {r: 0.6039216, g: 0.20392157, b: 0.8509804, a: 1}
+  UniqueIconBoundary: {r: 0.8509804, g: 0.20392157, b: 0.654902, a: 1}
+  EpicIconBoundary: {r: 0.58431375, g: 0.54509807, b: 0.07058824, a: 1}
+  CommonIconForeground: {r: 0.40392157, g: 0.40392157, b: 0.40392157, a: 1}
+  UncommonIconForeground: {r: 0.07450981, g: 0.33333334, b: 0.4509804, a: 1}
+  RareIconForeground: {r: 0.50980395, g: 0.20392157, b: 0.69803923, a: 1}
+  UniqueIconForeground: {r: 0.8862745, g: 0.23137255, b: 0.6901961, a: 1}
+  EpicIconForeground: {r: 0.85098046, g: 0.8078432, b: 0.20392159, a: 1}
+  MonsterOutlineRed: {r: 0.5019608, g: 0.07450981, b: 0.07450981, a: 0.69803923}
+  MonsterOutlineYellow: {r: 0.39215687, g: 0.39607844, b: 0.078431375, a: 0.69803923}
+  MonsterOutlineGreen: {r: 0.043137256, g: 0.2627451, b: 0.047058824, a: 0.69803923}
+  CommonGreenText: {r: 0.31764707, g: 0.6901961, b: 0.3254902, a: 1}
+  CommonGrayText: {r: 0.6901961, g: 0.6901961, b: 0.6901961, a: 1}
+  CommonRedText: {r: 0.48235297, g: 0.18823531, b: 0.1764706, a: 1}
+  CommonGreenImage: {r: 0.2509804, g: 0.8117648, b: 0.26666668, a: 1}
+  CommonGrayImage: {r: 1, g: 1, b: 1, a: 1}
+  CommonRedImage: {r: 0.9607844, g: 0.32941177, b: 0.29803923, a: 1}
+  CommonText: {r: 0.6627451, g: 0.6392157, b: 0.58431375, a: 1}
+  UncommonText: {r: 0.16470589, g: 0.39607847, b: 0.5019608, a: 1}
+  RareText: {r: 0.5058824, g: 0.2392157, b: 0.67058825, a: 1}
+  UniqueText: {r: 0.7176471, g: 0.18039216, b: 0.5529412, a: 1}
+  EpicText: {r: 0.7725491, g: 0.7254902, b: 0.12941177, a: 1}
+  ElementalFire: {r: 0.8196079, g: 0.34509805, b: 0.34509805, a: 1}
+  ElementalWater: {r: 0.0627451, g: 0.43137258, b: 0.5176471, a: 1}
+  ElementalLight: {r: 0.65882355, g: 0.6392157, b: 0.08627451, a: 1}
+  ElementalDark: {r: 0.10980393, g: 0.09019608, b: 1, a: 1}
+  ElementalHellfire: {r: 0.59607846, g: 0.054901965, b: 0.10980393, a: 1}
+  ElementalPoison: {r: 0.17254902, g: 0.45098042, b: 0.10196079, a: 0.99607843}
+  ElementalPlasma: {r: 0.27058825, g: 0.7843138, b: 0.77647066, a: 0.99607843}
+  ElementalAbyssal: {r: 0.2509804, g: 0.24313727, b: 0.4431373, a: 1}
+  ElementalChaos: {r: 0.4039216, g: 0.06666667, b: 0.3803922, a: 1}
+  ElementalLaw: {r: 0.5372549, g: 0.6313726, b: 0.22352943, a: 1}
+  HPText: {r: 0.50980395, g: 0.21960786, b: 0.23137257, a: 1}
+  MPText: {r: 0.21960786, g: 0.36862746, b: 0.50980395, a: 0.99607843}
+  SPText: {r: 0.50980395, g: 0.4784314, b: 0.21960786, a: 1}

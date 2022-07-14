@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f992e5eb1dd65b0428ea414649309f7d, type: 3}
+  m_Name: Monolith
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  DungeonArea: 13
+  SceneName: 300MainDungeon
+  DungeonKoreanName: "\uBAA8\uB178\uB9AC\uC2A4"
+  PlayerHeight: 0.4
+  BattleOverlayAlpha: 0.6
+  DungenFlow: {fileID: 11400000, guid: 20bb83bc172404547ac48a6ebe03c84a, type: 2}
+  MonsterSpawnInfoList: []
+  MinMonsterSpawn: 0
+  MaxMonsterSpawn: 0
+  NamedMonsterPrefabs: []
+  BossMonster: {fileID: 0}
+  MinNamedSpawn: 0
+  MaxNamedSpawn: 0
+  MinSkillChestSpawn: 0
+  MaxSkillChestSpawn: 0
+  MinEquipmentChestSpawn: 0
+  MaxEquipmentChestSpawn: 0
+  RecommendLevel: 41
+  StartFloorNumber: 1
+  EndFloorNumber: 2
+  EquipmentPointTier1: 0
+  EquipmentPointTier2: 280
+  EquipmentPossiblities:
+  - Rarity: 1
+    PossibilityInt: 81
+    PossibilityMin: 0
+    PossibilityMax: 0.675
+  - Rarity: 2
+    PossibilityInt: 27
+    PossibilityMin: 0.675
+    PossibilityMax: 0.9
+  - Rarity: 3
+    PossibilityInt: 9
+    PossibilityMin: 0.9
+    PossibilityMax: 0.97499996
+  - Rarity: 4
+    PossibilityInt: 3
+    PossibilityMin: 0.97499996
+    PossibilityMax: 0.99999994

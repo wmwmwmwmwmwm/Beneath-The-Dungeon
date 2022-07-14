@@ -1,0 +1,23 @@
+﻿번호,ID,한글이름,버프디버프,아이콘 그림,아이콘 파일경로,설명,노트
+1,poison,독,디버프,,,현재 체력의 10%에 해당하는 독 피해를 입는다,
+2,inertie,무기력,디버프,,,가하는 피해가 50% 감소한다,STR 0
+3,dull,우둔함,디버프,,,방어력이 0이 된다,DEX 0
+4,schizophrenia,정신분열,디버프,,,가하는 피해 만큼 자신도 피해를 입는다,INT 0
+5,disease,질병,디버프,,,최대 체력이 50% 감소한다,CON 0
+6,bleeding,출혈,디버프,,SpellBookPage09_42,30%의 추가 피해를 입는다,
+7,dodge_move,회피 기동,버프,,Archerskill_20,"받는 피해 50% 감소, 가하는 피해 25% 감소",
+8,aimed_shoot,정조준 사격,스킬,,SGI_10,다음 턴에 50 + 민첩 x 2의 피해를 가한다,
+9,hide,그림자 숨기,스킬,,SpellBook02_50,받는 피해가 50% 감소한다,
+10,guard,방어,스킬,,bb_01,받는 피해가 80% 감소한다,
+11,poison_arrow,독 화살,디버프,,SpellBook04_59,매 턴 10의 독 피해를 입는다,
+12,sting,독침,디버프,,SpellBook04_66,매 턴 체력의 10%에 해당하는 피해를 입는다,
+13,photosynthesis,광합성,버프,,SpellBook08_110,매 턴 체력 {0} 회복한다,
+14,blade_chivalry,블레이드 기사도,버프,,SGI_45,피격 시 30의 피해를 가한다,
+15,regeneration,재생,버프,,SpellBook08_11,매 턴 체력 {0} 회복한다,
+16,ice_shield,아이스 실드,버프,,b_39,피해를 {0}만큼 막는다,
+17,empower,강화 마법진,버프,,SpellBook08_09,50% 추가 피해를 가한다,
+18,petrifaction,석화,디버프,,blue_36,가하는 피해가 50% 감소한다,
+19,fire_tan,불의 문신,버프,,SpellBook06_61,화속성 피해가 30% 증가한다,
+20,immovable,행동불능,스킬,,Priestskill_17,스킬을 사용할 수 없다,
+21,venom,극독,디버프,,violet_24,매 턴 {0}의 피해를 받는다,
+22,curse_rite,저주 의식,디버프,,SpellBook07_34,매 턴 {0}의 피해를 받는다,

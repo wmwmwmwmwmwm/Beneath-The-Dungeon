@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: StoneWall2
+  m_Shader: {fileID: 4800000, guid: ff24a033c023ebe47b4f95d6568f6fea, type: 3}
+  m_ShaderKeywords: _EMISSION _HEIGHTONOFFA_ON _HEIGHTONOFFB_ON _HEIGHTTRIGGERA_ON
+    _HEIGHTTRIGGERB_ON _PARALLAXOCCLUSIONMAPPINGSETA_ON _PARALLAXOCCLUSIONMAPPINGSETB_ON
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlbedoA:
+        m_Texture: {fileID: 2800000, guid: 927fce1698220f3489b21d2f2c58bafc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlbedoB:
+        m_Texture: {fileID: 2800000, guid: df3a77173bbbb5f43baa418c92cf61ba, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HeightMapA:
+        m_Texture: {fileID: 2800000, guid: 1e7263e5496fb0849ab38f8f23964ae7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HeightMapB:
+        m_Texture: {fileID: 2800000, guid: 086d29a36d075e442b83cef39e9595e2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HeightRAOGSpecularBSmoothnessAA:
+        m_Texture: {fileID: 2800000, guid: 3bedcd03332e6e74c98dd23931ad9855, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HeightRAOGSpecularBSmoothnessAB:
+        m_Texture: {fileID: 2800000, guid: 37b37995a23dd374094f27d2a8f9f5cd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskMapA:
+        m_Texture: {fileID: 2800000, guid: 8a523aa4b3cc34e4bb5a6772b4998080, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskMapB:
+        m_Texture: {fileID: 2800000, guid: 6f6f9478925b82e4586cb5f2037ffb13, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMapA:
+        m_Texture: {fileID: 2800000, guid: 33485ebe25005ea4c964a5a1859c72bc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMapB:
+        m_Texture: {fileID: 2800000, guid: fcd7d2ec4bf27bc4bb8821c38f8df420, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RGBAlbedoA:
+        m_Texture: {fileID: 2800000, guid: 927fce1698220f3489b21d2f2c58bafc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RGBAlbedoB:
+        m_Texture: {fileID: 2800000, guid: df3a77173bbbb5f43baa418c92cf61ba, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AOIntensityA: 1
+    - _AOIntensityB: 1
+    - _AlbedoDetail: 0
+    - _AmbientOcclusionA: 1
+    - _AmbientOcclusionB: 1
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailAlbedoIntensity: 0.5
+    - _DetailNormalIntensity: 0.5
+    - _DetailNormalMapScale: 1
+    - _DetailTiling: 0
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _HeightIntensityA: 0.0303
+    - _HeightIntensityB: 0.0316
+    - _HeightONOFFA: 1
+    - _HeightONOFFB: 1
+    - _HeightQualityA: 20
+    - _HeightQualityB: 20
+    - _HeightScaleA: 0.025
+    - _HeightScaleB: 0.025
+    - _HeightTriggerA: 1
+    - _HeightTriggerB: 1
+    - _MetalicA: 1
+    - _MetalicB: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _NormalDetail: 0
+    - _NormalMapIntensityA: 1
+    - _NormalMapIntensityB: 1
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _ParallaxOcclusionMappingSetA: 1
+    - _ParallaxOcclusionMappingSetB: 1
+    - _RefPlane: 0.2
+    - _RoughnessIntensityA: 1
+    - _RoughnessIntensityB: 1
+    - _Set: 0
+    - _SmoothnessA: 1
+    - _SmoothnessB: 1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TilingA: 1
+    - _TilingB: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    - __dirty: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorA: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorB: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []

@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MinimapArrowMaterial
+  m_Shader: {fileID: 4800000, guid: 878d2a3021545084797d4343e0bc0525, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - PatternMovementPackMask_1:
+        m_Texture: {fileID: 2800000, guid: 220a451176c55114a8a03ce26b4ba304, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - PatternMovementPack_1:
+        m_Texture: {fileID: 2800000, guid: 7551eed766f54a1419bbcf72ee19a591, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 30a8fd2b2dee8e54090ff5b729909db2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NewTex_1:
+        m_Texture: {fileID: 2800000, guid: 6fd6869194707634480cb88cdde6d2e6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SourceNewTex_1:
+        m_Texture: {fileID: 2800000, guid: c9c8258da1c55ba4ebbc2e0250080f9a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - AnimatedMouvementUV_Speed_1: 1
+    - AnimatedMouvementUV_X_1: 0
+    - AnimatedMouvementUV_Y_1: 0
+    - AnimatedOffsetUV_Speed_1: 0.189
+    - AnimatedOffsetUV_X_1: 1
+    - AnimatedOffsetUV_Y_1: 0.582
+    - AnimatedOffsetUV_ZoomX_1: 3
+    - AnimatedOffsetUV_ZoomY_1: 3
+    - ResizeUV_X_1: 0
+    - ResizeUV_Y_1: 0
+    - ResizeUV_ZoomX_1: 10
+    - ResizeUV_ZoomY_1: 10
+    - _Add_Fade_1: 1
+    - _BumpScale: 1
+    - _ColorMask: 15
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Mask2RGBA_Fade_1: 1
+    - _Mask2uv_Fade_23: 1
+    - _Mask2uv_Fade_25: 1
+    - _Mask2uv_Fade_27: 1
+    - _Mask2uv_Fade_29: 1
+    - _Mask2uv_Fade_31: 1
+    - _Mask2uv_Fade_33: 1
+    - _Mask2uv_Fade_35: 1
+    - _Mask2uv_Fade_37: 1
+    - _Mask2uv_Fade_39: 1
+    - _Mask2uv_Fade_41: 1
+    - _Mask2uv_Fade_43: 1
+    - _Mask2uv_Fade_45: 1
+    - _Mask2uv_Fade_47: 1
+    - _Mask2uv_Fade_49: 1
+    - _Mask2uv_Fade_51: 1
+    - _Mask2uv_Fade_53: 1
+    - _Mask2uv_Fade_55: 1
+    - _Mask2uv_Fade_57: 1
+    - _Mask2uv_Fade_59: 1
+    - _Mask2uv_Fade_61: 1
+    - _Mask2uv_Fade_63: 1
+    - _Mask2uv_Fade_65: 1
+    - _Mask2uv_Fade_67: 1
+    - _Mask2uv_Fade_69: 1
+    - _Mask2uv_Fade_71: 1
+    - _Mask2uv_Fade_73: 1
+    - _MaskAlpha_Fade_1: 0
+    - _MaskChannel_Fade_1: 1
+    - _MaskRGBA_Fade_1: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _OutlineEmpty_Size_1: 1
+    - _Outline_HDR_1: 1
+    - _Outline_Size_1: 1
+    - _Parallax: 0.02
+    - _PatternMovementPack_Intensity_1: 1
+    - _PatternMovementPack_MaskIntensity_1: 1
+    - _PatternMovementPack_Speed_1: 1
+    - _PatternMovementPack_ValueX_1: 0.609
+    - _PatternMovementPack_ValueY_1: 0.452
+    - _PremadeGradients_Fade_1: 1
+    - _PremadeGradients_Offset_1: 0
+    - _PremadeGradients_Speed_1: 1.419
+    - _RGBA_Mul_Fade_1: 0
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SpriteFade: 1
+    - _SrcBlend: 1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorGradients2_Color1_1: {r: 1, g: 0, b: 0, a: 1}
+    - _ColorGradients2_Color2_1: {r: 0, g: 0, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FillColor_Color_1: {r: 0.4056604, g: 0.04082114, b: 0.04082114, a: 1}
+    - _OutlineEmpty_Color_1: {r: 0.6320754, g: 0.063605025, b: 0.063605025, a: 1}
+    - _Outline_Color_1: {r: 1, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []

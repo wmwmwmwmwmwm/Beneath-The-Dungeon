@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f992e5eb1dd65b0428ea414649309f7d, type: 3}
+  m_Name: ShadowTunnel
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  DungeonArea: 5
+  SceneName: 300MainDungeon
+  DungeonKoreanName: "\uADF8\uB9BC\uC790 \uD130\uB110"
+  PlayerHeight: 0.3
+  BattleOverlayAlpha: 0.6
+  DungenFlow:
+    m_AssetGUID: 70188205626d40e48a54aa8108189237
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  MonsterSpawnInfoList:
+  - MonsterPrefab: {fileID: 8473648150383719011, guid: 6e395aac3a4d3134392eeda17e097fa4,
+      type: 3}
+    SpawnPossibilityInt: 0
+    MinSpawnPossibility: 0
+    MaxSpawnPossibility: 0
+  - MonsterPrefab: {fileID: 7545473108714409108, guid: d2cd19d57dda5d6438109bd24afdd674,
+      type: 3}
+    SpawnPossibilityInt: 8
+    MinSpawnPossibility: 0
+    MaxSpawnPossibility: 0.14035088
+  - MonsterPrefab: {fileID: 8052704589241274511, guid: ad6d10ac07ef54b48bcf9af020d056da,
+      type: 3}
+    SpawnPossibilityInt: 6
+    MinSpawnPossibility: 0.14035088
+    MaxSpawnPossibility: 0.24561404
+  - MonsterPrefab: {fileID: 1023209372110469227, guid: bf034646115060148b5f61a84c275f01,
+      type: 3}
+    SpawnPossibilityInt: 3
+    MinSpawnPossibility: 0.24561404
+    MaxSpawnPossibility: 0.2982456
+  - MonsterPrefab: {fileID: 2422527153620412083, guid: 5fbd307151cf4dc4eabc45cfb5b44e4a,
+      type: 3}
+    SpawnPossibilityInt: 3
+    MinSpawnPossibility: 0.2982456
+    MaxSpawnPossibility: 0.3508772
+  - MonsterPrefab: {fileID: 5227279923040256564, guid: 4141f11ffd7d2da449c1d0dc892af8a1,
+      type: 3}
+    SpawnPossibilityInt: 4
+    MinSpawnPossibility: 0.3508772
+    MaxSpawnPossibility: 0.42105263
+  - MonsterPrefab: {fileID: 4241887733589755073, guid: c71428b01aead2e4693d3a559d996478,
+      type: 3}
+    SpawnPossibilityInt: 7
+    MinSpawnPossibility: 0.42105263
+    MaxSpawnPossibility: 0.54385966
+  - MonsterPrefab: {fileID: 8882730544216753625, guid: eb38eeca0d92f764faf4e2e49c2ebc7a,
+      type: 3}
+    SpawnPossibilityInt: 5
+    MinSpawnPossibility: 0.54385966
+    MaxSpawnPossibility: 0.631579
+  - MonsterPrefab: {fileID: 8497209674096075433, guid: 14df0d74adb83414a94efc16c9664e30,
+      type: 3}
+    SpawnPossibilityInt: 6
+    MinSpawnPossibility: 0.631579
+    MaxSpawnPossibility: 0.73684216
+  - MonsterPrefab: {fileID: 5484949505162381472, guid: e99172bb9a83845458f6c5bc04f6db0a,
+      type: 3}
+    SpawnPossibilityInt: 6
+    MinSpawnPossibility: 0.73684216
+    MaxSpawnPossibility: 0.8421053
+  - MonsterPrefab: {fileID: 8608928741092867867, guid: 0358f065baf3a124b9c70b4985a4b8aa,
+      type: 3}
+    SpawnPossibilityInt: 5
+    MinSpawnPossibility: 0.8421053
+    MaxSpawnPossibility: 0.92982465
+  - MonsterPrefab: {fileID: 5479542118595589661, guid: 9a693d3abcedac44d8dd1e1e06b973de,
+      type: 3}
+    SpawnPossibilityInt: 4
+    MinSpawnPossibility: 0.92982465
+    MaxSpawnPossibility: 1.0000001
+  MinMonsterSpawn: 4
+  MaxMonsterSpawn: 5
+  NamedMonsterPrefabs:
+  - {fileID: 3332535549106898800, guid: 73828d0c59017144a91eac34af88fefe, type: 3}
+  - {fileID: 3429459043503062359, guid: 717692261795aaf40be4039c3867be13, type: 3}
+  - {fileID: 3457781744115674826, guid: 57d2c09c653ba9740b40fc1359b0ce92, type: 3}
+  - {fileID: 7461236257425819990, guid: 038928253a358364cb30cdd5b3b2281b, type: 3}
+  BossMonster: {fileID: 1330259804734034270, guid: fc51d2001f236444bad510d6d3bdf41a,
+    type: 3}
+  MinNamedSpawn: 2
+  MaxNamedSpawn: 3
+  MinSkillChestSpawn: 0
+  MaxSkillChestSpawn: 2
+  MinEquipmentChestSpawn: 1
+  MaxEquipmentChestSpawn: 2
+  RecommendLevel: 1
+  StartFloorNumber: 1
+  EndFloorNumber: 1
+  EquipmentPointTier1: 110
+  EquipmentPointTier2: 0
+  EquipmentPossiblities:
+  - Rarity: 0
+    PossibilityInt: 9
+    PossibilityMin: 0
+    PossibilityMax: 0.75
+  - Rarity: 1
+    PossibilityInt: 3
+    PossibilityMin: 0.75
+    PossibilityMax: 1

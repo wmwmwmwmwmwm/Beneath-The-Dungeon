@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4730340129095358572
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4730340129095358573}
+  - component: {fileID: 4730340129095358578}
+  m_Layer: 0
+  m_Name: SingletonLoader
+  m_TagString: EditorOnly
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730340129095358573
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4730340129095358572}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4730340129095358578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4730340129095358572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a429c3161921c724fad03e2a43ab9d38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CommonUIManagerPrefab: {fileID: 2202376962822466612, guid: ae0597a7fad98e7468eec154c10e8466,
+    type: 3}
+  GameManagerPrefab: {fileID: 6081327841955820662, guid: 7d3aa1440f9d778468ec720556acd3b2,
+    type: 3}
+  DBManagerPrefab: {fileID: 6073586754254427376, guid: b90ac108d86abbc4186640482b5beddf,
+    type: 3}
+  LocalizationManagerPrefab: {fileID: 5839592202308956441, guid: 7abd03e9bd74d4a40991faf4048a13e4,
+    type: 3}
+  PlayerPrefab: {fileID: 1518004072715461975, guid: 36d0d7aa070423c4b90eb9bf2f9018ac,
+    type: 3}
+  AdManagerPrefab: {fileID: 3683215698304206775, guid: 6c3d896413f046a45abb0fb36c82ecac,
+    type: 3}
+  EncounterEventManagerPrefab: {fileID: 2653414120245213918, guid: d47a7057e6371824c916929ac22b85d2,
+    type: 3}
+  UICanvasPrefab: {fileID: 3256916544680428891, guid: e13708d994ea3c44494b06cc7189c9af,
+    type: 3}
+  DungeonControllerPrefab: {fileID: 8312936987263932981, guid: fab75051868b68c44961064f51984e7a,
+    type: 3}
+  ColorPalettePrefab: {fileID: 8866373084118022301, guid: c2726412686c2f54d828ddfae7740a9e,
+    type: 3}
+  AudioManagerPrefab: {fileID: 3939304760806403375, guid: 793651cd53e260c4abb7bce8ff044e91,
+    type: 3}
+  SaveManagerPrefab: {fileID: 6336886232150495345, guid: 17af8e55ff8e41f45a0061070bacff67,
+    type: 3}

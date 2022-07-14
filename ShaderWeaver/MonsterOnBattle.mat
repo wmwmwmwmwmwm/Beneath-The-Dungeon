@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MonsterOnBattle
+  m_Shader: {fileID: 4800000, guid: 8aca03375f575f44aac3e41288cd8d63, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlertDialog:
+        m_Texture: {fileID: 2800000, guid: 64dafb24a22fa7c4b93957fc8f718ef8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CircleBigMask:
+        m_Texture: {fileID: 2800000, guid: f9b2ffd8221a8584bb0198fe1857f143, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Glow11:
+        m_Texture: {fileID: 2800000, guid: 863ea3bd69392ed4eb2513e4f3ba29e2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Gradient171:
+        m_Texture: {fileID: 2800000, guid: 027d32d8524ad274bb0c86b796d08f33, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Gradient61:
+        m_Texture: {fileID: 2800000, guid: 7dee5468536b8524987443f71b0ea6df, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Gradient91:
+        m_Texture: {fileID: 2800000, guid: d89146b0145a61f40acc67b7189232f6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MonsterOnBattle_mask0:
+        m_Texture: {fileID: 2800000, guid: 414e8f719a5e5b7478ec052e4ccc4cfd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MonsterOnBattle_mask1:
+        m_Texture: {fileID: 2800000, guid: c3b9d8fccc4adb145a88319fa2f6e5b6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MonsterOnBattle_remap3:
+        m_Texture: {fileID: 2800000, guid: 80110d3a319449544adfe23047e2d5a5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _UVMovement:
+        m_Texture: {fileID: 2800000, guid: c3ea8cde8e0f07d4298c15a05f9601b7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _character_5:
+        m_Texture: {fileID: 2800000, guid: f1cc12383c5ae4cc09ddc8be4072d803, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Amount: 0.56666666
+    - MoveUV: 1
+    - PixelSnap: 0
+    - Speed: 1
+    - _ColorMask: 15
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseUIAlphaClip: 0
+    - _code9_Range: 1
+    - _code9_Speed: 1
+    - _code9_X: 1
+    - _code9_Y: 1
+    - _code9_size: 1
+    - _code9copy_Range: 0.09
+    - _code9copy_Speed: 1
+    - _code9copy_X: 1
+    - _code9copy_Y: 1
+    - _code9copycopy_Range: 0.09
+    - _code9copycopy_Speed: 1
+    - _code9copycopy_X: 1
+    - _code9copycopy_Y: 1
+    - blur: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color_ROOT: {r: 1, g: 1, b: 1, a: 1}
+    - _Color_dummy2: {r: 1, g: 1, b: 1, a: 1}
+    - _Color_dummy5: {r: 1, g: 1, b: 1, a: 1}
+    - _Color_dummy5copy: {r: 1, g: 1, b: 1, a: 1}
+    - _Color_dummy5copycopy: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

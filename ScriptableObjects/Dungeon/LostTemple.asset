@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f992e5eb1dd65b0428ea414649309f7d, type: 3}
+  m_Name: LostTemple
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  DungeonArea: 4
+  SceneName: 300MainDungeon
+  DungeonKoreanName: "\uC78A\uD600\uC9C4 \uC2E0\uC804"
+  PlayerHeight: 0.5
+  BattleOverlayAlpha: 0.8
+  DungenFlow:
+    m_AssetGUID: 875964410a7e38441a5e59f12f04dd79
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  MonsterSpawnInfoList:
+  - MonsterPrefab: {fileID: 3325505210939873104, guid: 28c5c13f7fbbeb5459b5eb9651b36492,
+      type: 3}
+    SpawnPossibilityInt: 5
+    MinSpawnPossibility: 0
+    MaxSpawnPossibility: 0.15151516
+  - MonsterPrefab: {fileID: 2943232266111477043, guid: 9517cb2bdbda72149bd5bcc8c3d543ed,
+      type: 3}
+    SpawnPossibilityInt: 2
+    MinSpawnPossibility: 0.15151516
+    MaxSpawnPossibility: 0.21212122
+  - MonsterPrefab: {fileID: 1555020156194205989, guid: 8be2b78e12ff0aa479a6804ddaa8a556,
+      type: 3}
+    SpawnPossibilityInt: 5
+    MinSpawnPossibility: 0.21212122
+    MaxSpawnPossibility: 0.36363637
+  - MonsterPrefab: {fileID: 128744408872048177, guid: 7f596c1d79f8d1f458b7b8a1e7a4328b,
+      type: 3}
+    SpawnPossibilityInt: 4
+    MinSpawnPossibility: 0.36363637
+    MaxSpawnPossibility: 0.4848485
+  - MonsterPrefab: {fileID: 2423128518046895776, guid: 7b4f3365c8929404aafdb00c7a2a2379,
+      type: 3}
+    SpawnPossibilityInt: 3
+    MinSpawnPossibility: 0.4848485
+    MaxSpawnPossibility: 0.5757576
+  - MonsterPrefab: {fileID: 3038918568306568641, guid: 77cc79354ad961f49b5eebb62f2c07d3,
+      type: 3}
+    SpawnPossibilityInt: 4
+    MinSpawnPossibility: 0.5757576
+    MaxSpawnPossibility: 0.69696975
+  - MonsterPrefab: {fileID: 5247016635715309394, guid: 238f3dc1c69164349aafe869dd492e4a,
+      type: 3}
+    SpawnPossibilityInt: 2
+    MinSpawnPossibility: 0.69696975
+    MaxSpawnPossibility: 0.7575758
+  - MonsterPrefab: {fileID: 6056783974965057288, guid: 44528420a100e1a4e969bf931212239e,
+      type: 3}
+    SpawnPossibilityInt: 2
+    MinSpawnPossibility: 0.7575758
+    MaxSpawnPossibility: 0.8181819
+  - MonsterPrefab: {fileID: 2767341302443623641, guid: f4c0dd9f57fc8d74394b98519a2f2411,
+      type: 3}
+    SpawnPossibilityInt: 6
+    MinSpawnPossibility: 0.8181819
+    MaxSpawnPossibility: 1
+  MinMonsterSpawn: 4
+  MaxMonsterSpawn: 6
+  NamedMonsterPrefabs:
+  - {fileID: 455842136772008086, guid: a2cdfdef6fea7af408260442a8a798c9, type: 3}
+  - {fileID: 3919702645739050753, guid: 2144bb05ad24ce3489f27b65d7f76f39, type: 3}
+  - {fileID: 7352775175818327317, guid: 724ce8fd3e5ffba419f0a9289b6edf05, type: 3}
+  - {fileID: 48981574890033801, guid: 861a1d7dd5424cc49ae1c1498d0fc8a9, type: 3}
+  - {fileID: 4261696189769198568, guid: 7b076787b1441b44ebbc7b9de70fa0da, type: 3}
+  BossMonster: {fileID: 569033654583871799, guid: e4bcbfcc3da99a440bc40f7989ca5d37,
+    type: 3}
+  MinNamedSpawn: 2
+  MaxNamedSpawn: 3
+  MinSkillChestSpawn: 0
+  MaxSkillChestSpawn: 2
+  MinEquipmentChestSpawn: 1
+  MaxEquipmentChestSpawn: 2
+  RecommendLevel: 1
+  StartFloorNumber: 1
+  EndFloorNumber: 4
+  EquipmentPointTier1: 100
+  EquipmentPointTier2: 0
+  EquipmentPossiblities:
+  - Rarity: 0
+    PossibilityInt: 9
+    PossibilityMin: 0
+    PossibilityMax: 0.75
+  - Rarity: 1
+    PossibilityInt: 3
+    PossibilityMin: 0.75
+    PossibilityMax: 1

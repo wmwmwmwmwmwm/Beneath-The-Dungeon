@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f992e5eb1dd65b0428ea414649309f7d, type: 3}
+  m_Name: MainDungeon47
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  DungeonArea: 1
+  SceneName: 300MainDungeon
+  DungeonKoreanName: "\uBA54\uC778 \uB358\uC804"
+  PlayerHeight: 0.4
+  BattleOverlayAlpha: 0.6
+  DungenFlow:
+    m_AssetGUID: 20bb83bc172404547ac48a6ebe03c84a
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  MonsterSpawnInfoList:
+  - MonsterPrefab: {fileID: 6531249228483247256, guid: bf61fc07211c9e546960b7153a54f3ed,
+      type: 3}
+    SpawnPossibilityInt: 5
+    MinSpawnPossibility: 0
+    MaxSpawnPossibility: 0.072463766
+  - MonsterPrefab: {fileID: 464497803343544003, guid: f7c4a60b68cc10749af7076fe4b4b56d,
+      type: 3}
+    SpawnPossibilityInt: 3
+    MinSpawnPossibility: 0.072463766
+    MaxSpawnPossibility: 0.11594203
+  - MonsterPrefab: {fileID: 503628934755973050, guid: b8fc214ccd98e3c46b30909ca7f3a19a,
+      type: 3}
+    SpawnPossibilityInt: 2
+    MinSpawnPossibility: 0.11594203
+    MaxSpawnPossibility: 0.14492753
+  - MonsterPrefab: {fileID: 8013875934033345198, guid: 8b1226bad76fa4746bd9b255973168bd,
+      type: 3}
+    SpawnPossibilityInt: 2
+    MinSpawnPossibility: 0.14492753
+    MaxSpawnPossibility: 0.17391303
+  - MonsterPrefab: {fileID: 5199931832829507250, guid: b95c2ce100d0a574f9d606c916f6924a,
+      type: 3}
+    SpawnPossibilityInt: 3
+    MinSpawnPossibility: 0.17391303
+    MaxSpawnPossibility: 0.2173913
+  - MonsterPrefab: {fileID: 5381597344303483461, guid: fc21692d791b6414daa9f12ef35e9b0f,
+      type: 3}
+    SpawnPossibilityInt: 5
+    MinSpawnPossibility: 0.2173913
+    MaxSpawnPossibility: 0.28985506
+  - MonsterPrefab: {fileID: 8926198369091514011, guid: 7fc158f4f66d7db4da6f488a1593795c,
+      type: 3}
+    SpawnPossibilityInt: 5
+    MinSpawnPossibility: 0.28985506
+    MaxSpawnPossibility: 0.3623188
+  - MonsterPrefab: {fileID: 6284981653388893382, guid: d772bcce8eba75547901094e7a5eb03f,
+      type: 3}
+    SpawnPossibilityInt: 5
+    MinSpawnPossibility: 0.3623188
+    MaxSpawnPossibility: 0.43478256
+  - MonsterPrefab: {fileID: 2843795908384925179, guid: 92a390d1a08e8e7438d4802d8194a134,
+      type: 3}
+    SpawnPossibilityInt: 3
+    MinSpawnPossibility: 0.43478256
+    MaxSpawnPossibility: 0.47826082
+  - MonsterPrefab: {fileID: 1400933341079809621, guid: 1785f3acd183bb54d85b4255886d08c2,
+      type: 3}
+    SpawnPossibilityInt: 5
+    MinSpawnPossibility: 0.47826082
+    MaxSpawnPossibility: 0.55072457
+  - MonsterPrefab: {fileID: 8624479373239906520, guid: 2b25be0bfe6c59943b00d87d446df0a1,
+      type: 3}
+    SpawnPossibilityInt: 4
+    MinSpawnPossibility: 0.55072457
+    MaxSpawnPossibility: 0.60869557
+  - MonsterPrefab: {fileID: 3009224629115536759, guid: 3a098eb2c493ff44790af5cbeaf897bc,
+      type: 3}
+    SpawnPossibilityInt: 5
+    MinSpawnPossibility: 0.60869557
+    MaxSpawnPossibility: 0.6811593
+  - MonsterPrefab: {fileID: 613727241933789, guid: 40d20fbc5e5064642bdd46f073947c77,
+      type: 3}
+    SpawnPossibilityInt: 5
+    MinSpawnPossibility: 0.6811593
+    MaxSpawnPossibility: 0.75362307
+  - MonsterPrefab: {fileID: 1036898330862939263, guid: 827bd0584f4814b42aca597405242112,
+      type: 3}
+    SpawnPossibilityInt: 3
+    MinSpawnPossibility: 0.75362307
+    MaxSpawnPossibility: 0.7971013
+  - MonsterPrefab: {fileID: 7328220695681611932, guid: f71f6021fe1ef1d419101c34e459cad6,
+      type: 3}
+    SpawnPossibilityInt: 5
+    MinSpawnPossibility: 0.7971013
+    MaxSpawnPossibility: 0.86956507
+  - MonsterPrefab: {fileID: 6977181835714290560, guid: fba2ed7bb2f369440ad2571afab78c9f,
+      type: 3}
+    SpawnPossibilityInt: 5
+    MinSpawnPossibility: 0.86956507
+    MaxSpawnPossibility: 0.9420288
+  - MonsterPrefab: {fileID: 2546612022611081530, guid: 2aacb6114e6408343b9c3975700cbde0,
+      type: 3}
+    SpawnPossibilityInt: 4
+    MinSpawnPossibility: 0.9420288
+    MaxSpawnPossibility: 0.9999998
+  MinMonsterSpawn: 2
+  MaxMonsterSpawn: 4
+  NamedMonsterPrefabs:
+  - {fileID: 7290171158897689778, guid: d75c8fc030eacf94fa97a6c36e3d0e8a, type: 3}
+  - {fileID: 5756610952453602253, guid: 52c08149c9fc7774bb37ff592d3276ac, type: 3}
+  - {fileID: 7541993427193197659, guid: c0e13a324a0610543b4af53bd9627305, type: 3}
+  - {fileID: 6857084547629436217, guid: 0b4fb9dedb63c1d46bb98ab45373dd2f, type: 3}
+  - {fileID: 2226044064291040335, guid: c8baabc2553e36c438569a6efff8b8c3, type: 3}
+  - {fileID: 1044489696973309337, guid: 091e553e896b93b4e995e7acbb110e36, type: 3}
+  - {fileID: 6562879029303994627, guid: 8f43b46da1acf874f9e42a3a18ac9766, type: 3}
+  BossMonster: {fileID: 0}
+  MinNamedSpawn: 1
+  MaxNamedSpawn: 2
+  MinSkillChestSpawn: 0
+  MaxSkillChestSpawn: 2
+  MinEquipmentChestSpawn: 1
+  MaxEquipmentChestSpawn: 2
+  RecommendLevel: 1
+  StartFloorNumber: 4
+  EndFloorNumber: 7
+  EquipmentPointTier1: 100
+  EquipmentPointTier2: 0
+  EquipmentPossiblities:
+  - Rarity: 0
+    PossibilityInt: 9
+    PossibilityMin: 0
+    PossibilityMax: 0.75
+  - Rarity: 1
+    PossibilityInt: 3
+    PossibilityMin: 0.75
+    PossibilityMax: 1
