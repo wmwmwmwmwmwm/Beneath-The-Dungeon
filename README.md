@@ -41,9 +41,9 @@
 
 **Script\Common\UICanvas.cs** : 던전 탐험 중(전투가 아닐 때)에 보이는 UI를 관리합니다.<br>
 
-**Script\Common\DungeonController.cs** : 던전의 정보(현재 층, 맵과 이벤트 생성 등)를 관리합니다.<br>
+**Script\Dungeon\DungeonController.cs** : 던전의 정보(현재 층, 맵과 이벤트 생성 등)를 관리합니다.<br>
 
-**Script\Common\SaveManager.cs** : 저장 및 로드를 담당합니다.<br>
+**Script\SaveSystem\SaveManager.cs** : 저장 및 로드를 담당합니다.<br>
 
 
 
